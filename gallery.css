@@ -1,19 +1,34 @@
 html{
   font-size: 18px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
 }
 
 body {
   padding-top: 5rem;
   font-family: "HIragino Kaku Gothic ProN", "メイリオ", sans-serif;
-  font-weight: bold; 
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%; 
  
 }
 img{
+  position: relative;
   border-radius: 10px;
   width: 60%;
   height: 60%;
 }
 
+#canvas {
+  position:fixed; 
+  width: 200%;
+  height: 100%;
+  background: #b8fdec;
+}
 
 .profile{
   background-color: #ffffff;
@@ -90,11 +105,10 @@ img{
   left: 0;
   margin: auto;
   text-align: center;
-  color: #3f98ef;
+  color: #6cb5ff56;
 }
 
 h1 {
-
   display: inline-block;
   border-bottom: solid 3px #cce4ff;
   position: relative;
@@ -111,7 +125,6 @@ h1:after {
 
 
 .box19 {
-
   position: relative;
   padding:0.25em 1em;
 }
@@ -139,14 +152,12 @@ h1:after {
   padding: 0;
 }
 
-
 table.act_table {
   border-collapse: collapse;
   border: 0;
   font-size: 24px;
+  position: relative;
 }
-
-
 
 table.act_table td {
   border: 1px solid #222;
@@ -158,4 +169,7 @@ table.act_table td.act_border {
   border-bottom-width: 3px;
   border-bottom-style: dotted;
   border-bottom-color: #5767bf;
+}
+p,td,iframe{
+  position: relative;
 }
