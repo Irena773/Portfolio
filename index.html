@@ -1,90 +1,197 @@
-<!DOCTYPE html> 
-<html lang="ja">
+<!DOCTYPE html>
+<html>
 <head>
-<!--文字コード-->
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
- 
-<!--ページタイトル-->
-<title>Nanami Ozawa</title>
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-<link rel="stylesheet" href="gallery.css">
-
-<!--ページ説明文-->
-<meta name="description" content="ポートフォリオ">
-<!--スマホ対応-->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--ファビコン-->
-<link rel="shortcut icon" href="">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta property='og:type' content='website'>
+  <meta property='og:title' content='WebデザイナーNANAMI OZAWA ポートフォリオ'>
+  <meta property='og:url' content='URLが入る'>
+  <meta property='og:description' content='NANAMI OZAWAのポートフォリオサイトです。'>
+  <meta property="og:image" content="img/ogp.png">
+  <meta name="description" content="NANAMI OZAWAのポートフォリオサイトです" />
+  <title>NANAMI OZAWA ポートフォリオ</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+  <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="img/profile.jpeg" />
+  <link rel=”canonical” href=”URLが入る” />
 </head>
 
-<header><div class="header-logo">ポートフォリオ</div></header>
-  <div class="container">
-    <div class="side-bar" style="text-align:center">
-      <h5>PROFILE</h5>
-      <h5>EXPERIENCE</h5>
-      <h5>CONTACTS</h5>
-    </div>
-    <body>
-      <main class="main">           
-        <p><div style="text-align:center">
-          <h4><b>PROFILE</b></h4>
-          <p>Nanami Ozawa</p>
-          <p>Shizuoka University</p>
-        </p></div>
+<body>
+  <div class="wrapper">
 
-        <p><div style="text-align:center">
-          <h4><b>EXPERIENCE</b></h4>
-            <table class="activities_table">
-              <tr>
-                <th>2019年</th>
-                <td>小学校プログラミングボランティア参加</td>
-              </tr>
-              <tr>
-                <th>2020年</th>
-                <td>BASIC SecCap参加</td>
-              </tr>
-              <tr>
-                <th>2021年</th>
-                <td><a href="<a href="https://www.youtube.com/embed/jBA0x1Fq_oI" target="_blank">第15回UE4ぷちコン参加</a></td>
-              </tr>
-              <tr>
-                <th>2021年</th>
-                <td><a href="<a href="https://github.com/Irena773/VR_MiniGame" target="_blank">アンリアルクエスト-グレイマンからの5つの挑戦状参加</a></td>
-              </tr>
-              <tr>
-                <th>2021年</th>
-                <td>ゲームクリエイター甲子園2021参加</td>
-              </tr>
-              <tr class="last">
-                <th>2022年</th>
-                <td>基本情報技術者試験合格</td>
-              </tr>
-            </table>
-        </p></div>
+    <!-- header -->
+    <header class="header ">
+      <div class="container">
+        <h1 class="header-logo">
+          <a href=".">NANAMI OZAWA</a>
+        </h1>
+        <nav class="gnav">
+          <ul class="gnav-list">
+            <li class="gnav-item"><a href="#about">ABOUT</a></li>
+            <li class="gnav-item"><a href="#works">WORKS</a></li>
+            <li class="gnav-item"><a href="#skill">INTERNSHIP</a></li>
+            <li class="gnav-item"><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- /header -->
 
-          <section id="contacts">
-            <div style="text-align:center">
-            <h4><b>CONTACTS</b></h4>
-              <div class="contact">
-                <a href="mailto:irena0773555666@gmail.com"><img src="img/gmail-icon.png"></a>
-                <a href="https://github.com/Irena773"><img src="img/github.png"></a>
+    <main class="content">
+
+      <!-- mv -->
+      <div class="mv">
+        <div class="mv-container">
+          <p class="mv-title">NANAMI OZAWA</p>
+          <p class="mv-subtitle">PORTFOLIO</p>
+        </div>
+      </div>
+      <!-- /mv -->
+      <!-- about -->
+      <section class="about section" id="about">
+        <div class="container">
+          <h2 class="title">ABOUT</h2>
+          <div class="profile">
+            <p class="profile-img">
+              <img src="img/profile.jpeg" alt="">
+            </p>
+            <div>
+              <h2 class="skill-name">小澤菜々美</h2>
+              <p>狩野芳伸研究室所属</p>
+              <p>静岡大学大学院総合科学技術研究科情報学専攻1年</p>
+              <p>静岡大学情報学部情報科学科卒業</p>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /about -->
+      <!-- works -->
+      <section class="works section" id="works">
+        <div class="container">
+          <h2 class="title">WORKS</h2>
+          <div class="works-list">
+            <a class="works-item" href="https://youtu.be/ZSD7-FfhISk">
+              <div class="works-img"><img src="img/redhood.png" alt="" /></div>
+              <p class="works-name">黄昏の赤ずきん</p>
+              <p class="works-info">UE4 Blender</p>
+            </a>
+            <a class="works-item" href="">
+              <div class="works-img"><img src="img/rakukaji.png" alt="" /></div>
+              <p class="works-name">家事管理アプリケーション</p>
+              <p class="works-info">React FastAPI</p>
+            </a>
+            <a class="works-item" href="https://github.com/Irena773/reserve-app">
+              <div class="works-img"><img src="img/secondStreet.png" alt="" /></div>
+              <p class="works-name">予約番号管理アプリ</p>
+              <p class="works-info">React FastAPI MySQL Docker </p>
+            </a>
+            <a class="works-item" href="https://github.com/Irena773/WorldCupDatabase">
+              <div class="works-img"><img src="img/worldcup.png" alt="" /></div>
+              <p class="works-name">ワールドカップデータベース</p>
+              <p class="works-info">Laravel MySQL</p>
+            </a>
+            <a class="works-item" href="https://github.com/Irena773/SpaceShooting">
+              <div class="works-img"><img src="img/SpaceShooting.png" alt="" /></div>
+              <p class="works-name">ぷちゅうじんの侵略</p>
+              <p class="works-info">Unity C#</p>
+            </a>
+            <a class="works-item" href="works-template.html">
+              <div class="works-img"><img src="img/works-dummy-thumb.jpg" alt="" /></div>
+              <p class="works-name">コンパイラ</p>
+              <p class="works-info">Java</p>
+            </a>
+
+
+          </div>
+        </div>
+      </section>
+      <!-- /works -->
+
+      <!-- skill -->
+      <section class="skill section" id="skill">
+        <div class="container">
+          <h2 class="title">INTERNSHIP EXPERIENCES</h2>
+          <div class="skill-list">
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/circle.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">Yahoo!</h3>
+                <p class="skill-text">チームでのReactを用いたヤフーショッピングのトップページの改善</p>
+                <p class="skill-text">React</p>
               </div>
             </div>
-          </section>
-      </main> 
-    </body>
-  </div>  
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/circle.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">楽天グループ株式会社</h3>
+                <p class="skill-text">チームでの家事管理アプリケーション開発</p>
+                <p class="skill-text">React FastAPI</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/circle.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">株式会社カプコン</h3>
+                <p class="skill-text">チームでのUnityを用いたゲーム開発ハッカソン</p>
+                <p class="skill-text">Unity C#</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/circle.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">株式会社セガ</h3>
+                <p class="skill-text">
+                  作品フィードバック会</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/circle.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">株式会社Cygames</h3>
+                <p class="skill-text">
+                    Unityを利用したゲームのブラッシュアップ</p>
+                    <p class="skill-text">Unity C#</p>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /skill -->
 
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-<script src="https://kit.fontawesome.com/31168af8af.js">
-</script>
 
-<div id="page_top"><a href="index.html"></a></div>
-<script src="background.js"></script>
+      <!-- contact -->
+      <section class="contact section" id="contact">
+        <div class="container">
+          <h2 class="title">CONTACT</h2>
+          <p class="lead">
+            お問い合わせは、<br class="sp-only">メールにてお願いいたします。
+          </p>
+          <div class="contact-list">
+            <!-- <a class="contact-item" href="https://twitter.com/" target="_blank" rel="noopener">Twitter</a> -->
+            <!-- <a class="contact-item" href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a> -->
+            <span class="contact-item">irina0773555666@gmail.com</span>
+          </div>
+        </div>
+      </section>
+      <!-- /contact -->
+      <div class="page-top" id="js-page-top">
+        <span class="material-icons-outlined">expand_less</span>
+      </div>
+    </main>
 
+    <!-- footer -->
+    <footer class="footer">
+      <div class="copyright">&copy;NANAMI OZAWA</div>
+    </footer>
+    <!-- /footer -->
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type='text/javascript' src="js/script.js"></script>
+</body>
 </html>
-
